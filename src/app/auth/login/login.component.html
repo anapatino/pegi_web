@@ -1,9 +1,62 @@
-<div class="bg-bg-background h-screen p-6">
-    <div class="flex px-4 py-2justify-between items-center">
-        <img src="assets/logo.svg" alt="Logo" class="h-10 w-10">
+<div class="bg-bg-background h-screen p-6 text-dark-blue overflow-hidden">
+  <div class="flex px-4 py-2justify-between items-center">
+    <img src="assets/logo.svg" alt="Logo" class="h-10 w-10" />
+  </div>
+  <div class="flex">
+    <div class="flex flex-col w-[50%] pl-28 pt-36 mb-8">
+      <h1 class="text-4xl font-bold">Ingresar</h1>
+      <p class="text-lg font-light mb-6 text-gray-600">
+        Por favor llenar los campos para poder ingresar al portal.
+      </p>
+      <div class="mb-6 w-full">
+        <input
+          type="email"
+          placeholder="Ingresar correo"
+          class="font-light w-[80%] py-2 px-4 border text-gray-dark border-stroke-input rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-dark"
+        />
+      </div>
+      <div class="mb-6 w-full">
+        <input
+          type="password"
+          placeholder="Ingresar contraseña"
+          class="font-light w-[80%] py-2 px-4 border text-gray-dark border-stroke-input rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-dark"
+        />
+      </div>
+      <button
+        class="w-[80%] px-4 py-2 bg-green-second text-white font-bold rounded-lg hover:bg-green-primary focus:outline-none mb-4"
+      >
+        Ingresar
+      </button>
+      <div class="text-center mb-4 w-[80%] my-8">o</div>
+      <button
+        class="w-[80%] px-4 py-2 border border-stroke-input text-gray-600 font-semibold rounded-lg flex items-center justify-center hover:bg-gray-100 focus:outline-none"
+      >
+        <img
+          src="assets/images/login/google.png"
+          alt="Google Logo"
+          class="h-6 w-6 mr-2"
+        />
+        Ingresar con Google
+      </button>
     </div>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
-   
+    <div
+      class="relative w-1/2  flex justify-center items-center"
+    >
+      <div
+        class="absolute top-[-60px] right-[-90px] w-[780px] h-[780px] border-2 border-green-primary opacity-35 rounded-full z-0"
+      ></div>
+      <div
+      class="absolute top-[30px]  right-[-20px]  w-[580px] h-[580px] border-2 border-green-second  opacity-35 rounded-full z-0"
+    ></div>
+      <!-- Imagen (Carrusel) -->
+      <div class="absolute right-[-10px] top-[130px]  z-10">
+        <img
+          src="assets/images/login/image_carrousel1.png"
+          alt="Imagen carrusel"
+          class="w-[1200px] h-auto shadow-lg rounded-xl "
+        />
+        <!-- Aquí puedes agregar un componente de carrusel que cambie la imagen -->
+      </div>
+    </div>
+  </div>
 </div>

@@ -15,6 +15,7 @@ module.exports = {
         "gray-dark": "#5C5B61",
         "gray-text-simple": "#5C5B61",
         "gray-normal": "#D9D9D9",
+        "stroke-input":"#DCDCDC",
       },
     },
     screens: {
