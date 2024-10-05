@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'rf-dewi';
+    src: url('assets/fonts/RFDewi-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rf-dewi';
+    src: url('assets/fonts/RFDewi-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rf-dewi';
+    src: url('assets/fonts/RFDewi-Light.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+* {
+    font-family: 'rf-dewi', poppins;
+}
